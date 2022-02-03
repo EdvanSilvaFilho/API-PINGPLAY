@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    background-color: rgba(197, 5, 5, 0.89);
+}
+
+header {
+height: 4rem;
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+background-color: #000;
+}
+
+header img {
+    height: 4rem;
+    width: 4rem;
+}
+
+header h1 {
+    color: #fff;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+
+main h2 {
+margin-bottom: 50px;
+font-family: 'Press Start 2P', sans-serif;
+}
+
+main h3 {
+font-size: 18px;
+font-family: 'Press Start 2P', sans-serif;
+
+margin-top: 30px;
+
+}
+
+
+
+.container-backgrond-playgame {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+width: 15rem;
+height: 15rem;
+}
+
+.container-backgrond-playgame img {
+width: 10rem;
+height: 10rem;
+
+transition: transform 1s;
+}
+
+.container-backgrond-playgame img:hover {
+transform: scale(1.1);
+}
+
+/* .modal-game {
+    background-color: rgba(22, 19, 19, 0.5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    z-index: 1;
+} */
+/* .container-backgrond-playgame img{
+background-size: cover;
+background-image: url(assets/imagens-playgame/playgame.svg);
+} */

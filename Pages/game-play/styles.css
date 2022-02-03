@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Press Start 2P", sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #000;
+
+}
+
+main {
+    height: 600px;
+    width: 1000px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-color: #fff;
+
+    border: 4px solid rgb(243, 2, 2);
+
+    border-radius: 25px;
+
+    padding-bottom: 60px;
+}
+
+main .name-players {
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 30px;
+
+}
+
+main .name-players span {
+    font-size: 3rem;
+}
+
+main .champion-name {
+    display: flex;
+    justify-content: center;
+}
+
+main .champion-name div{
+    height: 50px;
+    width: 250px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 5px;
+
+    background-color: rgb(243, 2, 2);
+}
+
+main .champion-name div span {
+    color: #fff;
+}
+
+main .container-players {
+display: flex;
+justify-content: space-between;
+}
+
+main button {
+    height: 40px;
+    width: 100px;
+
+    margin: 14px;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+
+
+main button:focus {
+    background-color: rgb(243, 2, 2);
+}
+
+main button:hover {
+    background-color: rgb(211, 32, 32);
+}
+
+.btn-play-game {
+    background-color: #000;
+
+    border-radius: 50px;
+
+    font-size: 18px;
+    color: #fff;
+}
+
+
+.btn-play-game:hover {
+    color: rgb(8, 6, 6); 
+}
+
+main div {
+    display: flex;
+    align-items: flex-end;
+}
